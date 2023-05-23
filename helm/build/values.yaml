@@ -1,0 +1,15 @@
+app:
+  name: wschomburg-poi-gateway-app
+  namespace: wschomburg
+  cluster: .apps.summit23blues.6mbu.p1.openshiftapps.com
+
+git:
+  branch: main
+  repo: https://github.com/Summit23Janus2/wschomburg-gateway
+  org: Summit23Janus2
+  name: wschomburg-gateway
+
+image:
+  host: image-registry.openshift-image-registry.svc:5000
+  name: wschomburg/poi-gateway-app
+  tag: latest
